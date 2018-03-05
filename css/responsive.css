@@ -1,0 +1,297 @@
+@media screen and (max-width: 1170px) and (min-width: 1025px) {
+	article {
+		width: 90%;
+	}
+
+	.icons__item {
+		float: none; 
+		width: 100%;
+		margin: 0;
+		margin-bottom: 50px;
+		margin-top: 70px;
+	}
+
+	.icons__link {
+		display: none;
+	}
+
+	.block__text {
+		margin-top: 5%;
+		padding-left: 10px;	
+	}
+
+	.monitor {
+		top: 50%;
+	}
+
+	.star {
+		top: 50%;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	article {
+		width: 90%;
+	}
+
+	.block__bulb, .block__brain {
+		display: none;
+	}
+	
+	.icons__item {
+		float: none; 
+		width: 100%;
+		margin: 0;
+		margin-bottom: 50px;
+		margin-top: 20px;
+	}
+
+	.icons__link {
+		display: none;
+	}
+	
+	.block__man {
+		width: 768px;
+		left: 50%;
+		margin-left: -384px;
+		top: 50%;
+		margin-top: -386px;
+	}
+
+	.block__text {
+		margin-top: 10%;
+	}
+	
+	.icon {
+		margin-bottom: 20px;
+	}
+
+	.monitor {
+		top: 85%;
+		margin-top: -212px;
+	}
+
+	.star {
+		top: 85%;
+		margin-top: -212px;
+	}
+
+	.block__name {
+		top: 55vh;
+	}
+
+	.block__rectangle {
+		top: 75vh;
+    	margin-top: -75px;
+	}
+
+	.social {
+		bottom: 12%;
+	}
+
+	.form__input {
+		display: block;
+		width: 70%;
+		margin: 0 auto 20px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.block__wheel {
+		width: 300px;
+		margin-left: -150px;
+	}
+
+	.icons__item {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	.skills__item {
+		margin-left: 10px;
+	}
+    
+	#workflow {
+		height: auto;
+		padding-bottom: 20px;
+	}
+
+	.workflow__container {
+		height: auto;
+	}
+
+	.container__header {
+		width: 90%;
+	}
+
+	.info__text {
+		width: 90%;
+	}
+
+	.info__icon {
+		top: -18%;
+	}
+	
+	.block__man {
+		display: none;
+	}
+
+	.block__text {
+		position: relative; 
+    	width: 80%;
+    	margin: 30px auto;
+	}
+
+	.arrows, .star {
+		left: 0;
+	}
+	
+	.name__icon {
+		display: none;
+	}
+	
+	.block__face {
+		top: 17%;
+		margin-top: 36px;
+	}
+
+	.block__rectangle {
+		margin-left: -160px;
+    	width: 320px;
+		background: url(../img/rectangle.png) no-repeat center center/contain;
+	}	
+
+    .red__text {
+		width: 90%;
+    }
+
+    .information__part {
+    	margin: 15px 40px;
+	}
+}
+
+@media screen and (max-width: 768px) and (max-height: 500px) {
+	.name__icon {
+		display: none;
+	}
+}
+
+@media screen and (max-height: 500px) {
+	.name__icon {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 862px) and (max-height: 665px) {
+	.block__wheel {
+		top: 55vh;
+		width: 300px;
+		margin-left: -150px;
+	}
+	
+	.block__name {
+		top: 55vh;
+	}
+
+	.block__man {
+		display: none;
+	}
+
+	.block__text {
+		position: relative; 
+    	width: 80%;
+    	margin: 30px auto;
+	}
+
+	.code {
+		top: 5%;
+	}
+
+	.arrows {
+		left: 0;
+		top: 5%;
+	}
+
+	.star {
+		left: 0;
+	}
+}
+
+@media screen and (max-height: 680px) {
+	#workflow {
+    	height: auto;
+    	padding-bottom: 20px;
+	}
+
+	.workflow__container {
+    	height: auto;
+	}
+
+	.container__header {
+    	width: 90%;
+	}
+
+	.block__man {
+		display: none;
+	}
+
+	.block__text {
+		position: relative; 
+    	width: 80%;
+    	margin: 30px auto;
+	}
+
+	.arrows {
+		left: 0;
+	}
+
+	.star {
+		left: 0;
+	}
+}
+
+@media screen and (max-height: 655px) {
+	.block__face {
+		display: none;
+	}
+
+	.block__name {
+		top: 40vh;
+	}
+
+	.block__rectangle {
+		top: 65vh;
+	}
+}
+
+@media screen and (max-height: 400px) {
+	.block__wheel {
+		top: 65vh;
+		width: 300px;
+		margin-left: -150px;
+	}
+
+	.block__basics {
+		display: none;
+	}
+	
+	#workflow {
+		height: auto;
+	}
+
+	.block__man {
+		display: none;
+	}
+
+	.block__name {
+		top: 50vh;
+	}
+
+	.block__rectangle {
+		display: none;
+	}
+
+	.social {
+		bottom: 25%;
+	}
+}
